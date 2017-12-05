@@ -1,0 +1,95 @@
+/*SHIKSHYA SUBEDI*/
+/*CM1101 - COURSEWORK*/
+/*BACKGROUND AND COLOUR CSS STYLESHEET*/
+
+/*HOMEPAGE BODY*/
+.HomeBody{
+  background-color: lightgrey;
+  background-image:url(homePage_Background2.jpg);
+  background-size:cover;
+  background-repeat: repeat-Y;
+  background-position: center;
+}
+
+/*BODY BACKGROUND - COLOUR GRADIENT*/
+.grad{
+  background: #03b1c1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(140deg, #84dfe8, #024f56); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(140deg, #84dfe8, #024f56); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(140deg, #84dfe8, #024f56); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(140deg, #84dfe8, #024f56); /* Standard syntax (must be last) */
+}
+
+/*HOMEPAGE HEADER TEXT*/
+#Page_name{
+  color: darkgrey;
+}
+
+/*HEADING 2*/
+h2{
+  color: white;
+}
+
+/*HEADING 2 AND HEADING 4*/
+h3,h4 {
+  color: #024f56;
+}
+
+/*BUTTONS - GENERAL*/
+button {
+  color: white;
+}
+
+/*BUTTONS ON HOMEPAGE*/
+#button1 {
+  background-color: rgba(0, 0, 0,0.4);
+  color: grey;
+}
+
+/*BUTTONS ON HOMEPAGE (WHEN HOVERD OVER)*/
+#button1:hover {
+  background-color: white;
+  color: black;
+}
+
+/*SMAILL BLOCK OF TEXT AT THE BOTTOM OF HOMEPAGE*/
+#bottomText{
+  color: white;
+}
+
+/*HYPERLINK IN THE LIST*/
+nav>ul>li a{
+  color: #000000;
+}
+
+/*LIST ELEMENT WITH A LINK*/
+li a:hover{
+  color: grey;
+}
+
+/*CONTAINERS WITH THE MAIN CONTENT/INFO*/
+#columns{
+  background-color: #D9E5D6;
+}
+
+/*FORM SUBMIT BUTTON*/
+input[type=submit] {
+    background-color: #024f56;
+    color: white;
+}
+
+/*FORM SUBMIT BUTTON WHEN HOVERED OVER*/
+input[type=submit]:hover {
+    background-color: #D9E5D6;
+    color: grey;
+}
+
+/*FORM CONTAINER*/
+#container {
+    background-color: #eef2ed;
+}
+
+/*EVERY OTHER TABLE ROW*/
+tr:nth-child(even) {
+    background-color: #eef2ed;
+}

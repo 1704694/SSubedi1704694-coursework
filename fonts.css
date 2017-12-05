@@ -1,0 +1,28 @@
+/*SHIKSHYA SUBEDI*/
+/*CM1101 - COURSEWORK*/
+/*FONT CSS STYLESHEET*/
+
+/*IMPORTED FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*HOMEPAGE HEADER TEXT*/
+#Page_name{
+  font-family: 'Acme', sans-serif;
+}
+
+/*HEADING 2*/
+h2, nav{
+  font-family: 'Acme', sans-serif;
+}
+
+/*BUTTONS - GENERAL*/
+button {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*ALL TEXT EXCLUDING PAGE HEADER AND NAVIGATION*/
+#columns,#bottomText,::placeholder{
+  font-family: 'Raleway', sans-serif;
+}
