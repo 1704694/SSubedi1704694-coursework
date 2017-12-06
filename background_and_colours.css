@@ -3,7 +3,7 @@
 /*BACKGROUND AND COLOUR CSS STYLESHEET*/
 
 /*HOMEPAGE BODY*/
-.HomeBody{
+#HomeBody{
   background-color: lightgrey;
   background-image:url(homePage_Background2.jpg);
   background-size:cover;
@@ -40,16 +40,22 @@ button {
   color: white;
 }
 
+/*SMAILL BLOCK OF TEXT AT THE BOTTOM OF HOMEPAGE*/
+#bottomText{
+  background-color: rgba(0, 0, 0,0.4);
+}
+
 /*BUTTONS ON HOMEPAGE*/
 #button1 {
   background-color: rgba(0, 0, 0,0.4);
-  color: grey;
+  color: darkgrey;
 }
 
 /*BUTTONS ON HOMEPAGE (WHEN HOVERD OVER)*/
 #button1:hover {
   background-color: white;
   color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /*SMAILL BLOCK OF TEXT AT THE BOTTOM OF HOMEPAGE*/
